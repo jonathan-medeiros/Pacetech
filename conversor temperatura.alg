@@ -1,26 +1,20 @@
 algoritmo "semnome"
-// Função :
+// FunÃ§Ã£o :
 // Autor :
 // Data : 09/08/2021
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 celsius, fahrenheit: real
 opcao: inteiro
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 escreval("BEM VINDO AO CONVERSOR DE TEMPERATURA")
 escreval("")
 escreval("DIGITE: ")
 escreval("1 para converter para CELSIUS")
 escreval("2 para converter para FAHRENHEIT")
 leia(opcao)
-
-se ((opcao > 1) e (opcao < 7)) entao
-
-escreval("entrou")
-
-fimse
 
 se opcao = 1 entao
    escreval("")
@@ -38,7 +32,7 @@ senao
         escreval("")
         escreval(celsius, "C correspondem a", fahrenheit, "F.")
      senao
-          escreval("OPÇÃO INVALIDA, TENTE NOVAMENTE!")
+          escreval("OPÃ‡ÃƒO INVALIDA, TENTE NOVAMENTE!")
      fimse
 fimse
 
